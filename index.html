@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Login Challenge</title>
+  <meta name="description" content="Login Challenge">
+  <meta name="author" content="Minja">
+  <script src="loginComponent.js" defer></script>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+
+
+  <style> 
+  body {
+      background-color: "#fafafa";
+      font-family: 'Montserrat', sans-serif;
+
+  } 
+  
+  main {
+      display: flex; 
+      align-items: center;
+      justify-content: center;
+  }
+  </style>
+</head>
+
+<body>
+
+    <main> 
+        <div> 
+        <h2 class="results__heading">Login</h2>
+
+      <login-component endpoint=”https://localhost:3000/signin”></login-component> 
+    </div>
+    </main>
+</body>
+</html>
