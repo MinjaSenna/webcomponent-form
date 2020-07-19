@@ -100,3 +100,4 @@ class LoginData extends HTMLElement {
 }
 
 customElements.define("login-component", LoginData);
+
